@@ -42,8 +42,21 @@ body{
 .seta{
     padding: 50px;
 }
-.seta_img{
-    width: 2%;
+.fechada{
+    width: 10%;
+    display: block;
+    margin-left: 40%;
+}
+.aberta{
+    width: 10%;
+    display: none;
+    margin-left: 40%;
+}
+.texto_seta{
+    margin: 20px 10%;
+    font-size: 16px;
+    text-transform: none;
+    display: none;
 }
 .projetos_title,  .titles{
     color: #B3B2B2;
@@ -145,8 +158,8 @@ footer{
         margin-left: 10%;
         margin-right: 10%;
     }
-    .seta_img{
-        width: 10%;
+    .aberta, .fechada{
+        width: 20%;
     }
     .projetos_site{
         flex-direction: column;
