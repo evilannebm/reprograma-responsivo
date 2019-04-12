@@ -9,18 +9,30 @@ let texto = document.querySelector('.texto_seta')
 //se não estiver fechada, ao clicar, fechar e esconder o texto
 
 botao.addEventListener('click',function(){
-
-    if(setaFechada.style.display = 'block'){
+    if(setaFechada.style.display == 'block'){
         setaFechada.style.display = 'none';
         setaAberta.style.display = 'block';
         texto.style.display = 'block';
-    }else if(setaFechada.style.display = 'none'){
+    }else{
         setaAberta.style.display = 'none';
         texto.style.display = 'none';
         setaFechada.style.display = 'block';
     }
-
 })
+
+// botao.addEventListener('click',function(){ 
+  
+//     if(setaFechada.style.display = 'block'){ 
+//         setaFechada.style.display = 'none'; 
+//         setaAberta.style.display = 'block'; 
+//         texto.style.display = 'block'; 
+//     }else if(setaFechada.style.display = 'none'){ 
+//         setaAberta.style.display = 'none'; 
+//         texto.style.display = 'none'; 
+//         setaFechada.style.display = 'block'; 
+//     } 
+ 
+// })
 
 //Tentativa 2
  // if(setaStatus.classList.contains('fechada')){
